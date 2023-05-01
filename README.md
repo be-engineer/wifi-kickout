@@ -1,4 +1,4 @@
-该脚本在路由器上执行后可以让无线连接信号低于thr设定值自动离线
+该脚本在路由器上执行后可以让无线连接信号低于thr设定值的设备断开连接
 
 # Introduction to wifi-kickout
 The shell script for OpenWrt kicks out the wifi client whose signal is too weak signal by comparing it to a threshold.
