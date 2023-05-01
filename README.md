@@ -1,4 +1,4 @@
-中文教程请移步：<https://blog.xieyc.com/openwrt-wifi-kickout/>
+该脚本在路由器上执行后可以让无线连接信号低于thr设定值自动离线
 
 # Introduction to wifi-kickout
 The shell script for OpenWrt kicks out the wifi client whose signal is too weak signal by comparing it to a threshold.
