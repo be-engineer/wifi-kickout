@@ -37,7 +37,7 @@ function deauth ()
 # "ban_time" prohibits the client to reassociate for the given amount of milliseconds.
 }
 
-# wlanlist for multiple wlans (e.g., 5GHz/2.4GHz)
+# wlanlist for multiple wlans (e.g., 5GHz/2.4GHz),wlan要根据实际的wifi接口修改，比如改为phy0-ap，如果有多个，要改为grep -E 'phy0-ap0|phy1-ap0'
 wlanlist=$(ifconfig | grep wlan | grep -v sta | awk '{ print $1 }')
 
 #loop for each wlan
